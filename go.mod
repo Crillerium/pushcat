@@ -1,4 +1,4 @@
-module ntfy
+module github.com/Crillerium/ntfy
 
 go 1.22.5
 
