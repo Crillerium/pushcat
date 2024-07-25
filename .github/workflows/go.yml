@@ -1,0 +1,25 @@
+name: Go
+
+on:
+  workflow_dispatch
+
+jobs:
+
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.22'
+
+    - name: Build
+      run: go build -ldflags "-s -w -H windowsgui"
+
+    - name: Upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: agileconfig-ui
+        path: AgileConfig.Server.UI/react-ui-antd/dist/
