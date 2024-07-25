@@ -1,4 +1,4 @@
-module github.com/Crillerium/ntfy
+module github.com/Crillerium/pushcat
 
 go 1.22.5
 
