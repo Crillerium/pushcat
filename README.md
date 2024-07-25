@@ -10,7 +10,7 @@
 ## 一、通过GO INSTALL安装
 执行命令:
 ```
-go install github.com/Crillerium/pushcat
+go install github.com/Crillerium/pushcat@latest
 ```
 ## 二、通过GO BUILD构建
 **(注意: 此方法需要用户自行添加PATH)**
