@@ -19,7 +19,7 @@ jobs:
       run: go build -ldflags "-s -w -H windowsgui" -o dist/pushcat.exe
 
     - name: Upload
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: pushcat-bin
         path: dist
