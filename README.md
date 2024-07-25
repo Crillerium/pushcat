@@ -1,5 +1,9 @@
 # 猫猫推送
-<div align="center">![CAT ICON](winres/cat.png)</div>
+<div align="center">
+
+![CAT ICON](winres/cat.png)
+
+</div>
 一个有着猫猫图标的通知推送应用  
 
 # 安装教程
