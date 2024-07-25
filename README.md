@@ -21,7 +21,7 @@ go build -ldflags "-s -w"
 
 ## 三、通过Releases页下载
 **(注意: 此方法需要用户自行添加PATH)**
-前往(Releases页)[https://github.com/Crillerium/pushcat/releases]下载已编译文件
+前往[Releases页](https://github.com/Crillerium/pushcat/releases)下载已编译文件
 
 # 使用方法
 ```
