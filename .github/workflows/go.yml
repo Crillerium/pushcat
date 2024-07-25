@@ -16,10 +16,10 @@ jobs:
         go-version: '1.22'
 
     - name: Build
-      run: go build -ldflags "-s -w -H windowsgui"
+      run: go build -ldflags "-s -w -H windowsgui" -o dist/pushcat.exe
 
     - name: Upload
       uses: actions/upload-artifact@v2
       with:
-        name: agileconfig-ui
-        path: AgileConfig.Server.UI/react-ui-antd/dist/
+        name: pushcat-bin
+        path: dist
